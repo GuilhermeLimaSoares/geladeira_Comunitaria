@@ -1,0 +1,205 @@
+*{padding:0;
+  margin:0;
+}
+
+div#interface {
+	width: 1100px;
+	margin: -10px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+
+header#cabecalho img#logo {
+	width: 200px;
+	height: 200px;
+	top: 0px;
+	margin-left: 200px;
+}
+
+header#cabecalho h1{
+	font-family: 'Lavanderia', sans-serif;
+	font-size: 50pt;
+	color: #EE4000;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+	padding: 0px;
+	margin-top: -170px;
+	margin-left: 400px;
+	margin-bottom: -20px;
+	display: inline-block;
+}
+
+nav#menu {
+	background-color: #EE4000;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	text-align: center;
+	border-radius: 50px;
+	padding: 20px;
+}
+
+nav#menu h1 {
+	display: inline-flex;
+}
+
+nav#menu a {
+	font-family: Arial, sans-serif;
+	font-size: 16pt;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: 'Coiny', sans-serif;
+    padding: 10px 20px;
+}
+
+form {
+	width: 500px;
+	margin: auto;
+}
+
+
+input, textarea {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color:#FFDEAD;
+}
+
+input:hover, textarea:hover {
+	background-color: #dddddd;
+}
+
+legend {
+	color: #ffffff;
+	background-color: #EE4000;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: Arial, sans-serif;
+	padding: 7px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 10px;
+}
+
+fieldset {
+	background-color: #FF7F24;
+	border-color: #FF7F24;
+	margin: 20px;
+	padding: 3px 3px 3px 3px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+fieldset p{
+	color: #ffffff;
+}
+
+fieldset#voluntario input#cNome{
+	margin-left: 120px;	
+}
+fieldset#voluntario input#cUser{
+	margin-left: 38px;	
+}
+
+fieldset#voluntario input#cEmail{
+	margin-left: 118px;	
+}
+fieldset#voluntario input#cEmailc{
+	margin-left: 36px;	
+}
+
+fieldset#voluntario input#tTelefone{
+	margin-left: 100px;	
+}
+
+fieldset#voluntario input#cNasc{
+	margin-left: 24px;	
+}
+
+
+fieldset#endereco input#cRua{
+	margin-left: 94px;	
+}
+fieldset#endereco input#cNum{
+	margin-left: 119px;	
+}
+fieldset#endereco input#cCom{
+	margin-left: 76px;	
+}
+fieldset#endereco input#cEst{
+	margin-left: 100px;	
+}
+fieldset#endereco input#cCid{
+	margin-left: 125px;	
+}
+
+
+fieldset#tipo {
+	border-color: #FF7F24;
+	margin: 0px 0px 0px 0px;
+	width: 50px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+input{
+	margin: 5px;;
+}
+
+input#entrar {
+	margin-left: 60px;
+	color: #ffffff;
+	background-color: #EE4000;
+	padding: 10px;
+	border-color: #EE4000;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+fieldset#sexo {
+	color: #ffffff;
+	width: 150px;
+}
+
+input#enviar {
+	margin-left: 230px;
+	color: #ffffff;
+	background-color: #EE4000;
+	padding: 10px;
+	border-color: #EE4000;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(236,184, 159);
+    padding: 50px 50px;
+    text-align: center;
+}
+
+#index:hover{
+	background-color: #000000;
+	border-radius:50%;
+}
+#doacao:hover{
+	background-color: #000000;
+	border-radius:50%;
+}
+#localizacao:hover{
+	background-color: #000000;
+	border-radius:50%;
+}
+#voluntario:hover{
+	background-color: #000000;
+	border-radius:50%;
+}
+
+#cabeca:hover{
+	color: white;
+}

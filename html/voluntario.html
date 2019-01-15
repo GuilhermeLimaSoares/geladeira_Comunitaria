@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geladeira Comunitaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/voluntario.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="logo" src="../img/geladeira.jpg"/>
+            <hgroup>
+                <h1>GELADEIRA COMUNITARIA</h1>
+            </hgroup>
+            <div>
+                <nav id=menu>
+                    <a href="../index.html" id="index">HOME</a>
+                    <a href="../html/doacao.html" id="doacao">DOAÇÃO</a>
+                    <a href="../html/localizacao.html" id="localizacao">LOCALIZAÇÃO</a>
+                    <a href="../html/voluntario.html" id="voluntario">SEJA VOLUNTÁRIO</a>
+                </nav>
+            </div>
+    </header>
+
+
+    <section id="corpo-full">
+
+				<form method="POST" id="fContato1">
+					<fieldset id="voluntario">
+						<legend>Identificação do Voluntário</legend>
+						<p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+						<p><label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="exemplo@exemplo.com"/></p>
+                        <p><label for="cEmailc">Confirme o E-mail:</label> <input type="email" name="tEmailc" id="cEmailc" size="20" maxlength="40" placeholder="exemplo@exemplo.com"/></p>
+                        <p><label for="cTelefone">Telefone:</label> <input type="text" name="tTelefone" id="tTelefone" size="20" maxlength="30" placeholder="00 0000-0000"/></p>
+						<fieldset id="sexo">
+						<legend>Sexo:</legend>
+						<input type="radio" name="tSexo" id="cMasc" checked /> <label for="cMasc">Masculino</label><br/>
+						<input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label>
+						</fieldset>
+						<p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc" size="10" maxlength="10" placeholder="dd/mm/aaaa"/></p>
+					</fieldset>
+
+					<fieldset id="endereco">
+						<legend>Endereço do Voluntário</legend>
+						<p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav, ..."/></p>
+						<p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="9999" placeholder="11, 295, 3679, ..."//></p>
+						<p><label for="cCom">Complemento:</label> <input type="text" name="tCom" id="cCom" size="13" maxlength="80" placeholder="Apartamento ..."/></p>
+						<p><label for="cEst">Estado UF:</label> <input type="text" name="tEst" id="cEst" size="2" maxlength="2" placeholder="SP, RJ ..."/></p>
+						<p><label for="cCid">Cidade:</label> <input type="text" name="tCid" id="cCid" size="13" maxlength="80" placeholder="São Paulo, Rio de Janeiro ..."/></p>
+					</fieldset>
+				
+					<input id="enviar" type="submit" name="tEnviar"/>
+				</form>
+			</section>
+    
+
+
+    <footer>
+       <p id="cabeca">Created By Mayara, Mayra e Guilherme</p>
+    </footer>
+
+
+
+</body>
+</html>
